@@ -1,0 +1,21 @@
+pre {
+   font-size: 40px;
+   color: #808080;
+   letter-spacing: 5px;
+   word-spacing: 40px;
+}
+ins + span{
+    text-decoration: overline;
+}
+
+.easy{
+    font-weight: 900;
+}
+ins > del {
+    text-shadow:2px 2px 3px orange;
+    font-size: 35px;
+}
+. span  {
+    color:rgb(241, 60, 121);
+font-weight: 200:
+}
