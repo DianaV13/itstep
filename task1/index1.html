@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <title>O CSS</title>
+</head>
+<body>
+    <h1>Таблица стилей CSS.</h1>
+   <h2> <ol> 
+       <li><a href="#menu1">Способы подключения CSS к документу</a></li>
+         <li><a href="#menu2">Правила построения CSS</a></li>
+            <li><a href="#menu3">Пример таблицы стилей</a></li>
+    </ol></h2>
+    <hr>
+    <p><strong>CSS</strong> <i>( англ. Cascading Style Sheets — каскадные таблицы стилей)</i> — формальный язык описания внешнего вида документа, 
+    написанного с использованием языка разметки.
+    Преимущественно используется как средство описания, оформления внешнего вида веб-страниц, 
+    написанных с помощью языков разметки HTML и XHTML, но может также применяться к любым XML-документам, 
+    например, к SVG или XUL.</p>
+    
+    <h2 id="menu1">Способы подключения CSS к документу</h2>
+    
+    <p>Правила CSS пишутся на формальном языке CSS и располагаются в таблицах стилей, то есть таблицы стилей содержат в себе правила CSS. 
+    Эти таблицы стилей могут располагаться как в самом веб-документе, внешний вид которого они описывают, так и в отдельных файлах, имеющих формат CSS. 
+    (По сути, формат CSS — это обычный текстовый файл. В файле .css не содержится ничего, кроме перечня правил CSS и комментариев к ним.)
+    То есть, эти таблицы стилей могут быть подключены, внедрены в описываемый ими веб-документ четырьмя различными способами:</p>
+    <ul>
+    <li><p> когда таблица стилей находится в отдельном файле, она может быть подключена к веб-документу посредством тега<span class="clgreen">&lt;link&gt;</span> , 
+    располагающегося в этом документе между тегами <span class="clgreen">&lt;head&gt;</span> и <span class="clgreen">&lt;/head&gt;</span>. 
+    (Тег<span class="clgreen">&lt;link&gt;</span>  будет иметь атрибут <span class="cldarkblue">href=</span>  , имеющий значением адрес этой таблицы стилей).
+     Все правила этой таблицы действуют на протяжении всего документа;</p></li>
+   
+    <li><p>когда таблица стилей находится в отдельном файле, она может быть подключена к веб-документу посредством директивы <i>@import</i>,
+     располагающейся в этом документе между тегами <span class="clgreen"> &lt;style&gt;</span> и <span class="clgreen"> &lt;/style&gt;</span> 
+     (которые, в свою очередь, располагаются в этом документе между тегами <span class="clgreen">&lt;head&gt;</span> и <span class="clgreen">&lt;/head&gt;</span>) 
+     сразу после тега  <span class="clgreen"> &lt;style&gt;</span>,которая также указывает<i>(в своих скобках, после слова url)</i>  на адрес этой таблицы стилей. 
+     Все правила этой таблицы действуют на протяжении всего документа;</p></li>
+     
+   <li><p>когда таблица стилей описана в самом документе, она может располагаться в нём между тегами<span class="clgreen"> &lt;style&gt;</span> и<span class="clgreen"> &lt;/style&gt;</span>
+    (которые, в свою очередь, располагаются в этом документе между тегами <span class="clgreen"> &lt;head&gt;</span> и <span class="clgreen">&lt;/head&gt;</span>). 
+    Все правила этой таблицы действуют на протяжении всего документа;</p></li>
+    
+    <li><p> когда таблица стилей описана в самом документе, она может располагаться в нём в теле какого-то отдельного тега<i>(
+    посредством его атрибута style)</i>  этого документа.
+     Все правила этой таблицы действуют только на содержимое этого тега.
+     </p></li>
+   </ul>
+   <h2 id= "menu2">Правила построения CSS</h2>
+    <p>В первых трёх случаях подключения таблицы CSS к документу (см. выше) каждое правило CSS из таблицы стилей имеет две основные части — 
+    <b>селектор и блок объявлений</b>. <b>Селектор</b>, расположенный в левой части правила, определяет, на какие части документа распространяется правило.
+     <b>Блок объявлений</b> располагается в правой части правила. Он помещается в фигурные скобки, и, в свою очередь, состоит из одного или более объявлений,
+     разделённых знаком <B>«;»</B>. Каждое объявление представляет собой сочетание свойства CSS и значения, разделённых знаком ": ". 
+     Селекторы могут группироваться в одной строке через запятую.В таком случае свойство применяется к каждому из них. </p>
+    
+    
+    <h2 id="menu3">Пример таблицы стилей</h2>
+    
+   <p>Пример таблицы стилей (в таком виде она может быть либо размещена в отдельном файле .css либо же обрамлена тегами<span class="clgreen">&lt;style&gt;</span>  
+    и размещена в «шапке» той самой веб-страницы, на которую она действует):
+    
+    <div><pre><p>
+    <span class="clorang">p</span><span class="clwhite"> {</span>
+      <span class="clblue"> font-family</span><span class="clwhite">:</span><span class="clterra">arial</span><span class="clwhite">,</span><span class="clterra">helvetica</span> <span class="clwhite">,</span><span class="clterra">sans-serif</span><span class="clwhite">;</span> 
+      <span class="clwhite">}</span> 
+    <span class="clorang">h2</span><span class="clwhite">{</span> 
+      <span class="clblue">font-size</span><span class="clwhite">:</span><span class="clgreen2">20pt</span><span class="clwhite">;</span>  
+      <span class="clblue">color</span><span class="clwhite">:</span><span class="clterra">red</span><span class="clwhite">;</span>  
+      <span class="clblue">background</span><span class="clwhite">:</span><span class="clterra">white</span><span class="clwhite">;</span> 
+      <span class="clwhite">}</span>
+    <span class="clorang">.note</span><span class="clwhite">{</span> 
+       <span class="clblue">color</span><span class="clwhite">:</span><span class="clterra">red</span><span class="clwhite">;</span> 
+       <span class="clblue">background-color</span><span class="clwhite">:</span> <span class="clterra">yellow</span><span class="clwhite">;</span> 
+       <span class="clblue">font-weight</span><span class="clwhite">:</span><span class="clterra">bold</span><span class="clwhite">;</span>
+       <span class="clwhite">}</span>
+    <span class="clorang">p#paragraph1</span><span class="clwhite">{</span> 
+      <span class="clblue">padding-left</span><span class="clwhite">:</span><span class="clgreen2">10px</span><span class="clwhite">;</span>
+      <span class="clwhite">}</span>  </p>
+       </pre></div>
+</body>
+</html>
+</p> 
+ />

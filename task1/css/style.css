@@ -1,0 +1,38 @@
+h1 {
+font-size: 32px;
+font-weight: 600;
+    
+}
+h2 {
+    font-size: 24px;
+    font-style: italic;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;   
+}
+.cldarkblue{
+    color: blue;
+}
+.clgreen{
+    color: #0c9e0c;
+}
+.clgreen2{
+    color:rgb(192, 223, 139);
+  }
+.clorang{
+    color:burlywood;
+}
+.clwhite{
+color:rgb(248, 247, 244);
+}
+.clterra{
+    color:rgb(240, 124, 124);
+}
+.clblue{
+    color:rgb(73, 157, 236);
+}
+div{
+    background-color: black;
+}
