@@ -13,9 +13,20 @@ ins + span{
 }
 ins > del {
     text-shadow:2px 2px 3px orange;
-    font-size: 35px;
 }
-. span  {
-    color:rgb(241, 60, 121);
-font-weight: 200:
-}
+ ins > del > span{
+     font-size: 35px;
+ }
+ .pink{
+    color:rgba(230,110,194,0.5);
+ }
+ .invi{
+     color: white;
+ }
+ .invi:hover{
+     color:#808080;
+
+ }
+.clpink:hover{
+    color: rgba(230,110,194,0.5);
+ }

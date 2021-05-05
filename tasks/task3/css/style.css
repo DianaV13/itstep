@@ -1,0 +1,45 @@
+table{
+    font-size: 50px;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    
+}
+td{
+	width: 260px;
+	height: 150px;
+	background:#CB3D39;
+    border:10px solid #000;
+    color:blanchedalmond;
+}
+.one{
+    text-align: left;
+    vertical-align: top;
+}
+.three{
+    text-align: left;
+    vertical-align: bottom;
+}
+.four{
+    text-align: center;
+    vertical-align: top;   
+}
+.five{
+    text-align: center;
+    vertical-align: middle;  
+}
+.six{
+    text-align: center;
+    vertical-align: bottom;
+}
+.seven{
+    text-align: right;
+    vertical-align: top;
+}
+.eight{
+    text-align: right;
+    vertical-align: middle;
+}
+.nine{
+    text-align: right;
+    vertical-align: bottom;
+}

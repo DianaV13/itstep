@@ -1,0 +1,22 @@
+table{
+    font-size: 25px;
+    border-spacing: 5px;
+    border-color: cornsilk;
+    border-collapse: collapse;
+}
+
+td{
+	width: 200px;
+	height: 50px;
+    border:10px solid rgb(255, 255, 255);
+}
+
+th{
+    background-color:#4F81BD;
+}
+tr:nth-child(2n+1) td:nth-child(2n+1){
+	background: #E9ECF3;
+}
+tr:nth-child(2n) td:nth-child(2n){
+	background:#D0D8E7;
+}	

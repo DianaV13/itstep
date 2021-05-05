@@ -1,0 +1,14 @@
+table{
+    font-size: 45px;
+    text-align: center;
+    border-spacing: 1cm;
+}
+.clred{
+    color: red;
+}
+.clgrey{
+    color:rgb(153, 153, 153)
+}
+.clorange{
+    color: orange;
+}
