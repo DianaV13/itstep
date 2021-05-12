@@ -1,0 +1,13 @@
+table{
+    font-size: 50px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    
+}
+td{
+	width: 260px;
+	height: 150px;
+	background:#CB3D39;
+    border:10px solid #000;
+    color:blanchedalmond;
+}

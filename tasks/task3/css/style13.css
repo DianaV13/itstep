@@ -1,0 +1,30 @@
+table{
+    font-size: 50px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    
+}
+td{
+	width: 260px;
+	height: 150px;
+	background:#CB3D39;
+    border:10px solid #000;
+    color:blanchedalmond;
+}
+tr:nth-child(1) td{
+    text-align: left;
+}
+tr:nth-child(2) td{
+    text-align: center;
+}
+tr:nth-child(3) td{
+    text-align: right;
+}
+tr td:nth-child(1){
+    vertical-align: top;
+}
+tr td:nth-child(2){
+    vertical-align: middle;
+}
+tr td:nth-child(3){
+    vertical-align: bottom;
