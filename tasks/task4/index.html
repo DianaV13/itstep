@@ -139,8 +139,8 @@ JavaScript является самым популярным языком про�
 </div>
 
 <p> <h2 id="menu4">4.Встраивание в веб-страницы. </h2> </p>
-
-<h3>Расположение внутри страницы.</h3> 
+<ol>
+<li><h3>Расположение внутри страницы.</h3></li> 
 Для добавления JavaScript-кода на страницу можно использовать теги <span class="clblue">&lt;script &gt; &lt;/script&gt;</span>, которые рекомендуется, но не обязательно, 
 помещать внутри контейнера<span class="clblue">&lt;head&gt;</span>. Контейнеров <span class="clblue">&lt;script&gt;</span> в одном документе может быть сколько угодно. Атрибут<span class='clblue'> type="text/javascript"</span> 
 указывать необязательно, данное значение используется по умолчанию. 
@@ -148,7 +148,7 @@ JavaScript является самым популярным языком про�
 
 <span class="clblue">&lt;script type="application/javascript"&gt;  alert('Hello, World!');&lt;/script&gt;</span>  
 
-<h3>Расположение внутри тега </h3>
+<li><h3>Расположение внутри тега </h3></li>
 
 Спецификация HTML описывает набор атрибутов, используемых для задания обработчиков событий. Пример использования: 
 <br>
@@ -163,22 +163,21 @@ JavaScript является самым популярным языком про�
 
 Использование кода<b> JavaScript</b> в контексте разметки страницы расценивается в рамках ненавязчивого JavaScript как плохая практика.
  Аналогом (при условии снабжения ссылки идентификатором alertLink) 
-
- <span class="clgreen"> &lt;a </span> href="delete.php" id="alertLink">  Удалить <span class="clgreen">&lt;/a&gt; </span>
-
+<br>
+ <span class="clgreen"> &lt;a </span> <span class="clolive">href=</span><span class= "clred">"delete.php"</span> <span class="clolive">id=</span><span class= "clred">"alertLink"</span>  Удалить <span class="clgreen">&lt;/a&gt; </span>
 приведённого примера может являться, например, следующий фрагмент JavaScript: 
 <pre>
-window.onload = function() {   
- var linkWithAlert = document.getElementById("alertLink"); 
-  linkWithAlert.onclick = function()
- {return confirm('Вы уверены?');   
+  <span class="clgreen">window </span>.onload =  <span class="clgreen">function</span>() {   
+    <span class="clgreen">var</span> linkWithAlert = document.getElementById(<span class= "clred">"alertLink"</span>); 
+  linkWithAlert.onclick = <span class="clgreen"> function</span>()
+ {return confirm(<span class= "clred">'Вы уверены?'</span>);   
   };
 }; 
 </pre>
-<h3>Вынесение в отдельный файл </h3>
+<li><h3>Вынесение в отдельный файл </h3></li>
 <pre><p>Есть и третья возможность подключения JavaScript — написать скрипт в отдельном файле, а потом подключить его с помощью конструкции: 
   <div><span class="clgreen">&lt;body&gt; &lt;script</span> <span class="clolive">type=</span><span class="clred">"application/javascript" <span class="clolive">src=</span><span class="clred">"http://Путь_к_файлу_со_скриптом"</span>&gt; <span class="clgreen"> &lt;/script&gt;&lt;/body&gt;</span> </p></pre></div>
-
+</ol>
 <p>Элемент <span class="clgreen">script</span>, широко используемый для подключения к странице <b>JavaScript</b>, имеет несколько атрибутов.</p>
 <table>
   <caption> <h3><ins>Атрибуты элемента script.</ins></h3></caption>
@@ -225,9 +224,9 @@ window.onload = function() {
 При этом в Mozilla Firefox предпринята попытка осуществления поддержки четвёртой редакции спецификации, а первым браузером,
  в котором появилась неполная поддержка спецификации 3.1, явился Internet Explorer 8. </p> 
  <pre class="clblue">В этой статье были использованы следующие теги и атрибуты:
-  &lt;p&gt;    &lt;pre&gt;   &lt;i&gt;         &lt;ol&gt;    &lt;strong&gt;    &lt;br&gt;      heigh=
-  &lt;b&gt;    &lt;div&gt;   &lt;img&gt;       &lt;ul&gt;    &lt;ins&gt;       class=          src=
-  &lt;h1&gt;    &lt;th&gt;   &lt;table&gt;     &lt;li&gt;    &lt;dt&gt;        alt=            href= 
+  &lt;p&gt;    &lt;pre&gt;   &lt;i&gt;         &lt;ol&gt;    &lt;strong&gt;    &lt;br&gt;         heigh=
+  &lt;b&gt;    &lt;div&gt;   &lt;img&gt;       &lt;ul&gt;    &lt;ins&gt;       class=             src=
+  &lt;h1&gt;    &lt;th&gt;   &lt;table&gt;     &lt;li&gt;    &lt;dt&gt;        alt=               href= 
   &lt;h2&gt;    &lt;tr&gt;   &lt;caption&gt;   &lt;hr&gt;    &lt;dd&gt;        id=
   &lt;h3&gt;    &lt;td&gt;   &lt;link&gt;      &lt;span&gt;  &lt;em&gt;        width=
 Иследующие CSS-свойства:
@@ -235,12 +234,12 @@ font-size         text-decoration         border-radius
 font-family       background-color        vertical-align
 font-weight       background-size         padding-bottom
 list-style-type   list-style-image        padding-top
-color             border-spacing
-border-collapse   float 
-text-shadow       margin
-text-align:       :nth-child
-background-color  padding-left
-border            height
+color             border-spacing          font-face
+border-collapse   float                   src url()
+text-shadow       margin                  text-transform 
+text-align        border-radius            :nth-child
+background-color  padding-left             word-spacing
+border            height                   letter-spacing
 
 </pre>
 </body>

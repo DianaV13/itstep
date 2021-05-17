@@ -13,21 +13,25 @@ font-face {
 h1{
     font-size: 18px;
     color:khaki;
-    text-shadow:2px 3px 3px #000 ;
+    text-shadow:4px 3px 3px #000 ;
     text-decoration: blink;
+    letter-spacing: 1px;
 }
 h2{
     font-size: 24px;
     background-color: khaki;
-    font-family:pompadur;  
+    font-family:pompadur; 
+    word-spacing: 5px; 
 }
 .rightimg{
     float:right;
     margin: 3px 0 3px 3px;
+    border:10px double khaki;
 }
 .leftimg{
     float: left;
     margin: 3px 3px 3px 3px;
+    border:10px double khaki;
 }
 .logo{
     background-size:cover;
@@ -47,6 +51,7 @@ pre ul{
 }
 .clgreen{
     color: rgb(49, 119, 61);
+    font-weight: 600;
 }
 .clolive{
     color: rgb(164, 214, 64);
@@ -92,7 +97,7 @@ tr:nth-child(odd){
     background-color: rgb(240, 233, 171);
 }
 div > span {
-font-size: 18px;
-padding-top: 3px;
+font-size: 16px;
+margin-top: 3px;
 padding-bottom: 3px;
 }
