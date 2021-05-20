@@ -28,6 +28,10 @@ h2{
     margin: 3px 0 3px 3px;
     border:10px double khaki;
 }
+.rightimg:hover{
+    border:10px double rgb(89, 61, 167);
+} 
+}
 .leftimg{
     float: left;
     margin: 3px 3px 3px 3px;
