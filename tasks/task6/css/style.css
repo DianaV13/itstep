@@ -1,0 +1,59 @@
+div{
+    position: relative;
+    float: left;
+}
+.main {
+text-align: center;
+ vertical-align: middle;
+font-size: 30px;
+font-weight: 700;
+width: 400px;
+height: 400px;
+}
+.menu2{
+    width: 200px;
+    height: 100px;
+    background-color: burlywood;
+    float:left;
+}
+.menu1-item1{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    float: left;
+}
+.menu1-item2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(179, 123, 231);
+    float:left;
+}
+.content-left-big{
+    width: 100px;
+    height: 200px;
+    background-color: rgb(104, 22, 180); 
+}
+.content-left-small{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(235, 29, 142); 
+    top:200px;
+    right:100px;  
+}
+.content-middle{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(119, 224, 238);    
+}
+.content-middle-item{
+    width: 100px;
+    height: 100px;
+    right:100px;background-color: cyan;
+}
+.content-right{
+    width: 100px;
+    height: 300px; 
+    background-color: coral;
+    bottom:300px;
+    left:300px;
+}

@@ -3,7 +3,8 @@ body{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
-    padding-left: 20px;   
+    padding-left: 20px; 
+    background-image: url(../img/yellow-background-14046115834KP.jpg);  
 }
 font-face {
     font-family: Pompadur,Bressay Trial
@@ -31,12 +32,20 @@ h2{
 .rightimg:hover{
     border:10px double rgb(89, 61, 167);
 } 
+
+.centerimg{
+    float:center;
+    margin: 3px 3px 3px 400px;
+    border:10px double khaki;
 }
-.leftimg{
+}.leftimg{
     float: left;
     margin: 3px 3px 3px 3px;
     border:10px double khaki;
 }
+.leftimg:hover{
+    border:10px double rgb(89, 61, 167);
+} 
 .logo{
     background-size:cover;
    
