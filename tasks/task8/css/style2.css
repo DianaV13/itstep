@@ -1,0 +1,138 @@
+body{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-left: 20px; 
+    background-image: url(../img/yellow-background-14046115834KP.jpg);  
+}
+font-face {
+    font-family: Pompadur,Bressay Trial
+    src url(../../../fonts/ofont.ru_Pompadur.ttf);   
+}
+h1{
+    font-size: 18px;
+    color:khaki;
+    text-shadow:4px 3px 3px #000 ;
+    text-decoration: blink;
+    letter-spacing: 1px;
+}
+h2{
+    font-size: 24px;
+    background-color: khaki;
+    font-family:pompadur; 
+    word-spacing: 5px; 
+}
+.rightimg{
+    float:right;
+    margin: 3px 0 3px 3px;
+    border:10px double khaki;
+}
+.rightimg:hover{
+    border:10px double rgb(89, 61, 167);
+} 
+.centerimg{
+    float:center;
+    margin: 3px 3px 3px 3px;
+    border:10px double khaki;
+}
+.leftimg{
+    float:left;
+    margin: 3px 3px 3px 3px;
+    border:10px double khaki;
+}
+.logo{
+    background-size:cover; 
+}
+.container{
+    width: 320px;
+    position: relative;
+    margin: 0 auto;
+    background: none;
+
+}
+
+.footer{
+    width: 320px;
+    position: relative;
+    margin:left;
+    background: none;
+  
+}
+div ul {
+    list-style-type:circle;
+}
+pre ul{
+    list-style-image: url(../img/book.png);
+}
+.clblue {
+    color:#0000ff;
+}
+.blue{
+    color: rgb(129, 129, 241);
+}
+.clgreen{
+    color: rgb(49, 119, 61);
+    font-weight: 600;
+}
+.clolive{
+    color: rgb(164, 214, 64);
+}
+.clred{
+    color: rgb(236, 98, 98);
+}
+
+table {
+    font-size: 18px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-radius: 3px;
+    border: 3px solid #000;
+}
+th{
+    text-align: center;
+    background-color:khaki;
+    border:1px solid #000;
+    height: 2cm;
+    text-transform: uppercase;
+    
+}
+td{
+    text-align: center;
+    vertical-align: middle;
+    border:1px solid #000;
+    height: 1cm;
+    width: 10cm;
+}
+td:nth-child(3){   
+     text-align: left;
+     width: 18cm;
+    
+}
+td:nth-child(1){
+    width: 2cm;
+}
+tr:nth-child(even){
+    background-color: rgb(243, 240, 210);
+}
+tr:nth-child(odd){
+    background-color: rgb(240, 233, 171);
+}
+div > span {
+font-size: 16px;
+margin-top: 3px;
+padding-bottom: 3px;
+}
+@media( min-width:768px){
+    .container{
+        width:760px;
+    }
+    .centerimg{
+        float:left;
+}
+@media(min-width:1280px){
+    .container{
+        width:1200px;
+    }
+    .centerimg{
+        float:center;
+}

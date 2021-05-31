@@ -1,0 +1,39 @@
+.container{
+   width:1200;
+   position:relative;
+   margin: 0 auto;
+   background: #100;
+   width: 400px;
+   height: 400px;
+
+}
+.box{
+    width: 10%;
+    height:100px;
+    position:relative;
+    background:rgb(0, 247, 255);
+}
+@media (min-width:320px){
+    .box{
+        width:25%;
+        height:100;
+    }
+}
+@media (min-width:768px){
+    .box{
+        width: 100%;
+
+    }
+}
+@media (min-width: 1024px){
+    .box{
+        width: 100%;
+        height: 200px;
+    }
+}
+@media (min-width: 1600px){
+    .box{
+        width: 100%;
+        height: 400px;
+    }
+}
