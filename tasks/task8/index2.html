@@ -168,14 +168,15 @@ JavaScript является самым популярным языком про�
 <br>
  <span class="clgreen"> &lt;a </span> <span class="clolive">href=</span><span class= "clred">"delete.php"</span> <span class="clolive">id=</span><span class= "clred">"alertLink"</span>  Удалить <span class="clgreen">&lt;/a&gt; </span>
 приведённого примера может являться, например, следующий фрагмент JavaScript: 
-<pre>
+<div class="code"><pre>
   <span class="clgreen">window </span>.onload =  <span class="clgreen">function</span>() {   
     <span class="clgreen">var</span> linkWithAlert = document.getElementById(<span class= "clred">"alertLink"</span>); 
   linkWithAlert.onclick = <span class="clgreen"> function</span>()
  {return confirm(<span class= "clred">'Вы уверены?'</span>);   
   };
 }; 
-</pre>
+</div>
+<div class="code"></div></pre>
 <li><h3>Вынесение в отдельный файл </h3></li>
 <pre><p>Есть и третья возможность подключения JavaScript — написать скрипт в отдельном файле, а потом подключить его с помощью конструкции: 
   <div><span class="clgreen">&lt;body&gt; &lt;script</span> <span class="clolive">type=</span><span class="clred">"application/javascript" <span class="clolive">src=</span><span class="clred">"http://Путь_к_файлу_со_скриптом"</span>&gt; <span class="clgreen"> &lt;/script&gt;&lt;/body&gt;</span> </p></pre></div>

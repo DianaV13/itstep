@@ -58,6 +58,9 @@ h2{
     background: none;
   
 }
+.code{
+    overflow: scroll;
+}
 div ul {
     list-style-type:circle;
 }
