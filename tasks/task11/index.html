@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <form action="" method="post" name="reg_form" class="reg-form">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="FIO">ФИО:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="text" name="FIO" id="FIO" value="" placeholder="Введите ФИО">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="pass">Пароль:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="password" name="pass" id="pass" value="" placeholder="Введите пароль">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="phone">Телефон:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="number" name="phone" id="phone" value="" placeholder="Введите свой номер телефона">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="email"> Email:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="email" name="email" id="email" value="" placeholder="Введите свой email">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="bthday"> Дата рождения:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="date" name="birthday" id="bthday" value="" placeholder="Введите вашу дату рождения">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for=""> Хобби:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="checkbox" name="hobby[]" value="rad1"> Плавание<br/>
+	                            <input type="checkbox" name="hobby[]" value="rad2"> Рисование<br/>
+	                            <input type="checkbox" name="hobby[]" value="rad3"> Тур.походы<br/>
+	                            
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for=""> Образование:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="radio" name="aducation" value="rad1"> Высшее<br/>
+	                            <input type="radio" name="aducation" value="rad2"> Среднее профессиональное<br/>
+	                            <input type="radio" name="aducation" value="rad3"> Среднее<br/>
+	                            
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for=""> Пол:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <select>
+                                    <optgroup label="Пол"> 
+                                        <option value="c1">Мужской</option> 			
+                                        <option value="c2">Женский</option> 					
+                                    </optgroup> 
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for=""> Аватар:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="file"name="file" id="" value="" placeholder="Загрузите вашу фотографию" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="submit" name="submit" id="submit" value="Отправить">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

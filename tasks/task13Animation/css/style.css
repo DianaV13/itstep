@@ -1,0 +1,68 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+}
+a{
+position:fixed;
+top:100px;
+display: block;
+}
+.start{
+    left:100px;
+    background-color: salmon;
+    border:5px solid rgb(63, 25, 133);
+    margin:10px;
+    padding:10px;
+}
+.end{
+    right:100px;
+    background-color: salmon;
+    border:5px solid rgb(63, 25, 133);
+    margin:10px;
+    padding:10px;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    box-sizing: border-box;
+    background-color: skyblue;
+    border: 0px solid rgb(63, 25, 133);
+    transition-property:border,widht,height,transform;
+    transition-timing-function:linear;
+    transition-duration: 5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ball{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    box-sizing: border-box;
+    background: rgb(20, 159, 214);
+    border-radius: 50%;
+    transition-property:widht,height,background;
+    transition-timing-function:linear;
+    transition-duration: 2s;
+}
+.ball:hover{
+    width: 400ps;
+    height: 400px;
+    background:rosybrown ;
+    
+}
+#box:target{
+    width: 0ps;
+    height: 0px;
+    border:200px solid rgb(63, 25, 133);
+    transform: rotate(360deg);
+
+}

@@ -1,0 +1,56 @@
+  
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.container{
+    position:relative
+    width: 600px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+.form-radio{
+    position: relative;
+    display: flex;
+   margin-top: 10px;
+  
+}
+input{
+    display: none;
+}
+label::before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(136, 41, 41);
+    top: -4px;
+    left: -30px;
+    border-radius: 50px;
+}
+input:checked+label::after{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    
+    top: 3px;
+    left: -23px;
+    border-radius: 50px;
+}
+input:checked+label.pink::after{
+background: rgb(223, 79, 179);
+}
+input:checked+label.blue::after{
+ background: rgb(90, 73, 243);  
+}
+input:checked+label.green::after{
+background: rgb(77, 194, 53);
+}
