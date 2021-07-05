@@ -253,6 +253,7 @@ margin-right: 15px;
 display: block;
 }
 .product_pic figure a em{
+box-sizing: border-box;
 display: inline-block;
 position: absolute;
 bottom: 0;
@@ -269,8 +270,8 @@ section.products {
     
 } 
 section.newsbox{
-    border-bottom: 1px solid #dee2e6;
-    border-top: 1px solid #dee2e6;
+    border-bottom: 2px solid #ababab;
+    border-top: 2px solid #ababab;
     margin-top: 20px;
     padding: 40px 85px 65px;
 }
@@ -336,7 +337,69 @@ margin-top: 10px;
     text-transform: uppercase;
     text-align: left;
     font-size: 11px;
-    margin-top: 20px;
+    margin-top: 50px;
     color:black;
 }
+.foot-menu-box{
+    margin-top: 25px;
+    padding: 10px;
+    margin-bottom: 10px; 
+ 
+}
+.logo-text{
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
 
+}
+.red-letter{
+    font-size: 24px;
+    color: #dc6511;
+}
+.foot-menu{
+    display: block;
+    list-style: none;
+    
+}
+.foot-menu>li{
+    display: block;
+    line-height: 17px;
+    padding-right: 25px;
+    position: relative;
+    
+}
+.foot-menu>li>a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(29, 28, 28);
+}
+.foot-menu-active{
+    font-size: 12px;
+    text-decoration: none;
+    color:#dc6511; 
+}
+.Privacy-policy{
+    padding: 10px;
+    margin-left: 39px;
+    margin-bottom: 70px;
+    margin-top: -20px;
+    font-size: 10px;
+   
+}
+}
+.copy, .Privacy{
+    font-size: 10px;
+
+}
+.foot-icon-menu{
+    display:block;
+    position: relative;
+    float: left;
+   
+    
+}
+.icon-menu>li{
+    text-decoration: none;
+    list-style: none;
+   
+}
