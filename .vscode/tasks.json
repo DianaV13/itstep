@@ -4,5 +4,8 @@
     "windows": {
         "command": "C:/Users/HP/AppData/Local/Google/Chrome/Application/chrome.exe"
     },
-    "args": ["${file}"]
+    "args": [
+        "${file}"
+    ],
+    "problemMatchers": []
 }
