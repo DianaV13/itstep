@@ -145,12 +145,9 @@ text-decoration: underline;
     color: cornsilk;
 }   
 .search{
-    display: inline-block;
-    box-sizing: border-box;
-    float: left;
     background-color: rgb(238, 231, 231);
 }
-}
+ 
 .search-form{
     display:inline-block;
     box-sizing: border-box;
@@ -183,3 +180,41 @@ text-decoration: underline;
     height: 100px;
 
 }
+.top-app-items{
+    margin-bottom: 20px;
+    width:100%;
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+}
+.top-item{
+    margin:5px;
+    
+    background-color: lightgray;
+
+}
+
+.top-item-img>img{
+width: 100%;
+
+}
+
+.top-item:hover{
+    background-color: #616ee4;
+    opacity: 2;
+}
+.item-caption{
+font-size: 25px;
+}
+.item-caption:hover{
+    background-color: #616ee4;
+    color: #fff;
+}
+.top-item-price{
+    font-weight: 800;
+}
+.learn-more{
+    background-image: url(../img/learnmore_back.jpg);
+}
+

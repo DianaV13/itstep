@@ -1,0 +1,43 @@
+$grey:#989898 ;
+$lightgrey:#a7a7a7;
+$darkgrey:#666;
+$verydarkgrey:#444;
+$graygrey:#c0c0c0;
+$darkgrey:#303030;
+$grey74: #747474;
+$grey9:#999;
+$grey2:#aaaaaa;
+$blue:#6C8CD5;
+$white:#fff;
+$milk:#DDD;
+$verywhite:#eee;
+$superwhite: #eaeaea;
+$supermilk:#e5e5e5;
+$white1:#ededed;
+$white2:#F2F2F2;
+$white3:#f8f8f8;
+$darkblue:#00294e;
+$blue1:#3C5B9B;
+$blue2: #027ba5;
+$blue3:#1DA1F2;
+$black: #000;
+$black2:#222;
+$black1a:#1a1a1a;
+$lightblack:#333;
+$orange:#fcaf45;
+$red-orange:#FF0000;
+$red-orange1:#E60023;
+$coral:#fd4f57;
+$brightcoral:#F00;
+
+@mixin awesome {
+    font-family: "Font Awesome 5 Free";
+    font-size: 13px;
+    
+}
+
+$social-colors(
+
+
+)
+    
