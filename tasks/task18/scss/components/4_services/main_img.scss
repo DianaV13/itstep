@@ -1,0 +1,28 @@
+.serv_video_img{
+  display: block;
+  position: relative;
+  padding-top: 120px;
+}
+
+.video-icon-red{
+  display: block;
+  position: relative;
+  height: 70px;
+  width: 70px;
+  padding: 20px;
+  border-radius: 50px;
+  z-index:1;
+  background: #f42267;
+  top: -263px;
+  left: 244px;
+}
+.video-icon-white{
+  position: relative;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 0 12px 30px;
+  border-color: transparent transparent transparent #eee;
+  border-radius: 5px;
+  margin-left: 4px;
+}

@@ -1,0 +1,33 @@
+.two-buttons{
+    display: block;
+    position: relative;
+    margin-top: 50px;
+}
+.red-button{
+    display: inline-block;
+    box-sizing: border-box;
+    background: #f42267;
+    border-radius: 35px;
+    border:2px solid #ff5990;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    width: 135px;
+    height: 40px;
+    margin-right: 15px;
+    
+}
+.purple-button{
+    display: inline-block;
+    box-sizing: border-box;
+    background: #773491;
+    border-radius: 35px;
+    border:2px solid #773491;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    width: 135px;
+    height: 40px; 
+}

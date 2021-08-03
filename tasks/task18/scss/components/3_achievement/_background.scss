@@ -1,0 +1,30 @@
+.achievements{
+  color:#fff;
+    background: #4b2d7f;
+    
+}
+.ach_item{
+  display: block;
+ position: relative;
+ padding:50px;
+background-color: #4b2d7f;
+}
+.ach_item_img{
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 30px;
+  text-align: center;
+}
+.ach_big_row{
+  background: url(../img/blue_table.jpg);
+  text-align: center;
+  height: auto;
+  padding: 0 180px;
+
+}
+.dark_blue{
+  display: block;
+  box-sizing: border-box;
+  background-color: #40286a;
+}

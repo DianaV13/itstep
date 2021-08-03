@@ -1,0 +1,23 @@
+@import "../config";
+ul.main-menu{
+list-style: none;
+justify-content: end;
+text-transform: capitalize;
+padding-top: 40px;
+    li{
+        a{
+            text-decoration: none;
+            padding: 0 20px;
+            span{
+        font-size: 17px;
+        font-weight: 600;
+        color:$white;
+        display: block;
+        box-sizing: border-box;
+        padding-left: 15px;
+        }
+    
+        }
+        }
+    }
+    
