@@ -1,0 +1,15 @@
+.submit_button{
+    width: 100px;
+    height: 40px;
+    background: #4b2d7f;
+    border:2px solid #a57ee9;
+    border-radius: 8px;
+    border-bottom: 4px solid #a57ee9;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+.submit_button:hover{
+   background: #a57ee9; 
+}

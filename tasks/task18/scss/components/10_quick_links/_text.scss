@@ -1,0 +1,28 @@
+.company{
+    display: block;
+    margin: 50px 25px 20px;
+  
+
+}
+.com_title{
+    font-size: 24px;
+    color: #4b2d7f;
+    font-weight: 700;
+}
+
+ul.q-link{
+list-style: none;
+
+        li{
+            a{
+                color:#000;
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: 600;
+            }
+            a:hover{
+                color:#4b2d7f;
+            }
+        }
+
+}

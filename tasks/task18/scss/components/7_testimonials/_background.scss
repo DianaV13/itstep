@@ -2,16 +2,17 @@
     background-image: url(../img/testimonials_background.jpg);
     background-repeat: no-repeat;
     background-position: center top;
-    padding: 72px 199px 1px;
+    padding: 72px 199px 9px;
     color:#eee;
     margin: 50px;
-    margin-top: -
-    81px
+    margin-top:-81px;
 }
 .testimonials_img{
+    position: relative;
     img{
-        width: 90%;
-
+        width: 88%;
+        position: relative;
+        margin-top: -45px;
     }
 
 }
