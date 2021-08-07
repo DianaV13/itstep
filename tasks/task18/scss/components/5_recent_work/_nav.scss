@@ -7,4 +7,16 @@
     padding-left: 360px;
     padding-right: 229px;
 }
-
+@media (min-width:479px) and (max-width: 1169px){
+    .work-menu{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .recent_work_menu{
+        display: flex;
+        justify-content: center;
+    }
+    .about_company{
+        padding:10px;
+    }
+}

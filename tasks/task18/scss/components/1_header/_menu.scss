@@ -20,4 +20,30 @@ padding-top: 40px;
         }
         }
     }
-    
+
+    .hamburger-menu{
+        input{
+            position: relative;
+            right: -140px;
+            top: -50px;
+        }
+    }
+
+    @media ( max-width:768px){
+        .hamburger-menu{
+            input{
+                position: relative;
+                right: 170px;
+                top: -54px;
+            }
+        }
+    }
+    @media ( max-width:575px){
+        .hamburger-menu{
+            input{
+                position: relative;
+                right: -140px;
+                top: -50px;
+            }
+        }
+    }

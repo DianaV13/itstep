@@ -6,3 +6,11 @@
     color:#eee;
  
 }
+@media (min-width:479px) and (max-width: 1169px){
+    .help_block{
+    margin: 10px;
+    margin-top: -10px;
+    padding-bottom: 25px;
+    padding: 25px 65px
+    }
+}

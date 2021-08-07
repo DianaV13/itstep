@@ -8,3 +8,24 @@
     width: 100%;
     
 }
+@media (min-width:479px) and (max-width: 1169px){
+    .f-menu{
+        
+        padding: 50px 50px;
+        margin: 10px;
+        padding-bottom: 45px;
+        margin-top: -70px;
+    }
+    ul.bottom_menu{
+        flex-direction: column;
+        width:130%;
+        list-style: none;
+        li{
+            a:hover{
+                color: #4b2d7f;
+
+            }
+        }
+    }
+
+}

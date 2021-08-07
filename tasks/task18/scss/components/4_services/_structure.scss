@@ -20,3 +20,32 @@
     display: block;
     position: relative;
 }
+@media (min-width:480px) and (max-width:1169px){
+    .about_services{
+        padding:40px 30px;
+        text-align: center; 
+    }
+    .service_item{
+        padding:10px 20px;
+    }
+}
+@media (max-width: 758px){
+    .service_item{
+        padding:10px 20px;
+        align-items: center;
+    }
+    .right{
+        text-align: center;
+        padding:30px;
+    }
+    .left{
+        text-align: center;
+        padding:30px;
+    }
+    .serv_video_img{
+        img{
+            width: 100%;
+        }
+    }
+    
+}

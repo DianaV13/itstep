@@ -29,3 +29,8 @@ background-color: #4b2d7f;
   box-sizing: border-box;
   background-color: #40286a;
 }
+@media ( max-width:1169px){
+  .ach_big_row{
+    padding: 0 90px;
+  }  
+}
