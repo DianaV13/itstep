@@ -1,0 +1,23 @@
+.box span:nth-child(4n+3){
+    color:#f00;
+}
+.chess{
+    width:800px;
+    height:800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.black{
+   
+    
+    width: 100px;
+    height:100px;
+    background:black;
+}
+.white{
+    
+    width: 100px;
+    height: 100px;
+    background: white;
+    
+}

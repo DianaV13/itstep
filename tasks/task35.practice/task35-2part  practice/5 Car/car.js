@@ -22,7 +22,7 @@ class Car {
         console.log("Машина повернула на право");
     }
     toString(){
-        console.log("");
+        console.log("Тянут машину на веревке");
     }
 }
 export{Car};
