@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="container">
+<form name="form">
+    <div class ="box" id = "catName">
+        Name of the cat: <input type="text" name="name" id="name">
+    </div>
+    <div class ="box" id="catColor">
+       Pick cat color:  <input type="color" name="color" id="color">
+    </div>
+    <div class ="box" id="catBreed">
+        Breed: <select id="breed">
+            <option selected>Выберите породу</option>
+            <option>Шотландская</option>
+            <option>Сиамская</option>
+            <option>Мейн-кун</option>
+            <option>Бенгальская</option>
+            <option>Бомбейская</option>
+            <option>Рэгдолл</option>
+            <option>Сфинкс</option>
+            <option>Другая</option>
+        </select>
+    </div>
+    <div class ="box" id="catSex">
+        Cat sex: <input type="radio" name="sex" id="male">
+                 <label for="male">Male</label>
+
+                 <input type="radio" name="sex" id="female">
+                 <label for="female">Female</label>
+
+                  <button type="submit" class="btn" id="btn">Добавить</button>
+                   
+    </div>
+</div>
+</form>
+<div class="container">
+    <table id="cats">
+        <caption>Cats</caption>
+        <tr>
+            <th>#</th>
+            <th>Cat name</th>
+            <th>Color</th>
+            <th>Breed</th>
+            <th>Sex</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Барсик</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+  
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
