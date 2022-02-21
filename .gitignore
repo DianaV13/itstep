@@ -1,2 +1,4 @@
 ./testfolder/*
-
+.testfolder
+node_modules
+.angular

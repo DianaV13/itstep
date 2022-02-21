@@ -1,0 +1,9 @@
+<h1>{{title}}</h1>
+<p>my age {{age}}</p>
+<img [src]= "link"/>
+<img src= {{link}}/>
+<p [textContent] = "title"></p>
+<input type = "text" [value]="age">
+<button (click) = "addAge();addAge()">Увеличить возраст на 2</button>
+<button [class] = "red" (click)="decreaseAge()" (mouseover)="addClass()" (mouseout)="removeClass()" >Уменьшить возраст</button>
+<input type="text" [(ngModel)]="age">
